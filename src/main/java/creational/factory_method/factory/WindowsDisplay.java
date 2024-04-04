@@ -5,7 +5,7 @@ import creational.factory_method.product.WindowsButton;
 
 public class WindowsDisplay extends Display {
     @Override
-    public Button initializeButton() {
+    public Button createButton() {
         return new WindowsButton();
     }
 }
